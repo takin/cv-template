@@ -1,0 +1,18 @@
+#content {
+    float: left;
+    position: absolute;
+    top: 120px;
+}
+.time-container {
+    float: left;
+    width: 140px;
+    text-align: right;
+}
+.content-container {
+    float: right;
+    margin-left: 20px;
+}
+.content-container ul {
+    margin: 0 0 0 20px;
+    padding:0;
+}

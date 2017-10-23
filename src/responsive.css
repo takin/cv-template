@@ -1,0 +1,21 @@
+@media (max-width: 800px) {
+    #header {
+        margin: 30px 0;
+    }
+    #main-container {
+        width: auto;
+        min-width: 440px;
+        margin: 0 20px;
+    }
+    #content {
+      flex-direction: column;
+    }
+    #left-side {
+        flex: 1;
+        order: 2;
+    }
+    #right-side {
+        flex: 1;
+        order: 1;
+    }
+}

@@ -1,3 +1,5 @@
-#timline-svg {
-    /* margin-top: 20px; */
+#timeline {
+    position: absolute;
+    float: left;
+    z-index: 1;
 }

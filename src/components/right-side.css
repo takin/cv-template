@@ -1,4 +1,4 @@
 #right-side {
-    float: right;
-    margin-right: 20px;
+    flex: 0 0 296px;
+    /* border: 1px solid #000; */
 }

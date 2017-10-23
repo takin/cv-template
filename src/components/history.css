@@ -1,0 +1,29 @@
+#history {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+}
+.historyItem {
+    flex: 1;
+    width: 100%;
+    border: 1px solid #fc0;
+}
+.section-container {
+    display: flex;
+    margin-left: 165px;
+}
+.section-icon {
+    align-self: baseline;
+    padding: 6px 8px;
+    margin-right: 10px;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px rgb(210,240,226);
+    background: rgb(245,245,245);
+}
+.section-title {
+    flex: 1;
+    align-self: baseline;
+    font-weight: bold;
+    font-size: 17px;
+}

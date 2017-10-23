@@ -7,7 +7,7 @@ export default class Timeline extends Component {
         return <circle key={index} {...circle} />
     })
     return (
-      <div>
+      <div id="timeline">
         <svg id="timeline-svg" height={this.props.height}>
           <line {...this.props.line} />
           {circles}
